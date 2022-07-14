@@ -6,7 +6,7 @@ Summary:	Google Raleway fonts
 License:	OFL
 Group:		System/Fonts/True type
 Url:		https://fonts.google.com/specimen/Raleway
-Source0:	%{name}-%version.tar.gz
+Source0: https://fonts.google.com/download?family=Raleway#/Raleway.zip
 BuildArch:	noarch
 
 %description
