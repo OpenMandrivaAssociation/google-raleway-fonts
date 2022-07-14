@@ -13,11 +13,11 @@ BuildArch:	noarch
 Raleway is an elegant sans-serif typeface family.
 
 %prep
-%autosetup -p1 -c %{name}
+%autosetup -p1
 
 %install
 mkdir -p %{buildroot}%{_datadir}/fonts/TTF/raleway
-install -Dm 644 *.ttf  %{buildroot}%{_datadir}/fonts/TTF/raleway/
+install -Dm 644 fonts/TTF/raleway/*.ttf  %{buildroot}%{_datadir}/fonts/TTF/raleway/
 
 %files
 %{_datadir}/fonts/TTF/raleway
